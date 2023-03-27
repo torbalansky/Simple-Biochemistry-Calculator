@@ -1,2 +1,3 @@
-# Simple-Biochemistry-Calculator
- 
+'Simple Biochemistry Calculator' is a web-based application designed for molarity calculations and dilution preparations. It was developed using HTML, CSS, and JavaScript. The molarity calculator determines the amount of compound needed to attain a particular molar concentration and volume by computing the mass required. The dilution calculator tool helps determine the necessary volume of a stock concentrate to add in order to obtain a desired volume and concentration, using the following formula - M1V1 = M2V2.
+
+In the future, I plan to make the user interface more visually appealing and improve the overall functionality.

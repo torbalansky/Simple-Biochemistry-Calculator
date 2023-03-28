@@ -39,6 +39,11 @@ h2 {
   color: var(--header-color);
 }
 
+em {
+  font-size: 12px;
+  text-align: center;
+}
+
 .sidebar-container {
   position: fixed;
   top: 0;

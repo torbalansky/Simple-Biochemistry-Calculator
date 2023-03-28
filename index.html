@@ -14,13 +14,14 @@
     <div class="container">
         <form id="calculator">
             <h2> Molarity Calculator</h2>
+            <em> Calculate the mass of a compound required to prepare a solution of known volume and concentration: </em>
             <p class="field molarity">
                 <label>Desired Concentration (M)</label>
                 <input type="number" name="molarity" id="molarity" step="any">
             </p>
 
             <p class="field molarmass">
-                <label>Molar Mass (g/mol)</label>
+                <label> Molecular Weight (g/mol)</label>
                 <input type="number" name="molarmass" id="molarmass" step="any">
             </p>
 
@@ -37,10 +38,12 @@
             <p>
                 <input type="submit" value="Calculate">
             </p>
+            <em>This calculator uses the formula: m(g) = C(mol/L) x V(L) x Mw(g/mol)</em>
         </form>
 
         <form id="solution-prep-calculator">
             <h2>Dilution Calculator</h2>
+            <em> Calculate the volume of stock concentrate required to achieve a specific volume and concentration for a solution:</em>
             <p class="field initial-concentration">
                 <label>Stock Concentration (M)</label>
                 <input type="number" step="any" name="initial-concentration" id="initial-concentration">
@@ -64,6 +67,7 @@
             <p>
                 <input type="submit" value="Calculate">
             </p>
+            <em> This calculator uses the formula: C1V1=C2V2 </em>
         </form>
         <div class="sidebar-container">
     <ul>

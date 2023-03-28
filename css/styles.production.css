@@ -51,6 +51,11 @@ h2 {
   color: var(--header-color);
 }
 
+em {
+  font-size: 12px;
+  text-align: center;
+}
+
 .sidebar-container {
   position: fixed;
   top: 0;
@@ -218,4 +223,17 @@ footer {
   text-align: center; 
   width: 100%;
   font-size: 10px;
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
 }
